@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F2F2F7"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cardview_light_background"
+                android:orientation="vertical">
+                <!-- LOGO-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imgItemImage"
+                        android:layout_width="120dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/puthea"
+                        android:layout_gravity="center"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:text="Sith PHOR"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+                    <!--First Name-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            style="@style/createEditTextGroupStyle"
+                            tools:ignore="RtlHardcoded">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="20sp"
+                                android:text="Edit Profile"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <View style="@style/view_line"/>
+                    <!--Last Name-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            style="@style/createEditTextGroupStyle"
+                            tools:ignore="RtlHardcoded">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="20sp"
+                                android:text="Change Password "/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <View style="@style/view_line"/>
+                    <!-- email-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            style="@style/createEditTextGroupStyle"
+                            tools:ignore="RtlHardcoded">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="20dp"
+                                android:text="Passcode Lock"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <View style="@style/view_line"/>
+                    <!--  phone-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            style="@style/createEditTextGroupStyle"
+                            tools:ignore="RtlHardcoded">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="20sp"
+                                android:text="Help"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <View style="@style/view_line"/>
+                    <!--  phone-->
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="horizontal" >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            style="@style/createEditTextGroupStyle"
+                            tools:ignore="RtlHardcoded">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="20sp"
+                                android:text="Terms of Use"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <View style="@style/view_line"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="30dp"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_logout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shap_signin_background"
+                            android:text="Logout"
+                            android:textColor="#ffffff"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_marginTop="10sp"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content"
+                        android:text="Version 1.0.0"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+</LinearLayout>

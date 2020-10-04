@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="textColor">#76BE83</color>
+    <color name="colorSplashScreen">#4E6CC7</color>
+
+    <!-- Default back press toolbar -->
+    <color name="color_background">#FAFAFA</color>
+
+    <!-- Splash Screen -->
+    <!-- End of Splash Screen -->
+
+    <!-- Login Screen -->
+    <color name="login_edit_text_color_hint">#ffff</color>
+    <color name="login_edit_text_text_color">#212121</color>
+    <!-- End of Login Screen -->
+
+    <color name="colorPrimary1">#3700B3</color>
+    <color name="colorPrimaryDark1">#6200EE</color>
+    <color name="colorPrimaryOld">#720E5580</color>
+    <color name="colorAccent1">#3d00e0</color>
+    <color name="red">#f2100c</color>
+    <color name="dark_red">#40000c</color>
+
+    <!-- Default back press toolbar -->
+    <color name="default_back_press_toolbar_background">@color/transaction_tab_color</color>
+    <color name="color_background1">#FAFAFA</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_screen_background">@android:color/black</color>
+    <!-- End of Splash Screen -->
+
+    <color name="read">#ffffff</color>
+    <color name="unread">#E1EEFF</color>
+
+    <!--Pink 500-->
+    <color name="accent_500">#E91E63</color>
+    <!--Pink 700-->
+    <color name="accent_700">#C2185B</color>
+
+    <!-- Login Screen -->
+    <color name="login_screen_background">@android:color/white</color>
+    <color name="login_edit_text_background">@android:color/white</color>
+    <color name="login_edit_text_color_hint1">#C9C7C7</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="grey1">#2871C0</color>
+    <color name="login_edit_text_text_color1">#212121</color>
+    <color name="login_edit_text_stroke_color">#E0E0E0</color>
+    <!-- End of Login Screen -->
+
+    <color name="blue">#3B8BEE</color>
+    <color name="blue2">#2871C0</color>
+
+
+    <!-- Container -->
+    <color name="white_54">#8AFFFFFF</color>
+    <color name="white_55">#A5A3A3</color>
+    <color name="bottom_navigation_title_selected">#E85298</color>
+    <color name="bottom_navigation_title_un_selected">@android:color/black</color>
+    <!-- End of Container screen -->
+
+    <!-- Transaction screen -->
+    <color name="transaction_tab_color">#EC407A</color>
+    <color name="transaction_tab_un_select">#BDBDBD</color>
+    <color name="transaction_tab_text_color_selected">@android:color/black</color>
+    <!-- End of transaction screen -->
+
+    <!-- Company Current Profit -->
+    <color name="profit_text_color">#00E676</color>
+    <color name="profit_sale_text_color">#00B0FF</color>
+    <color name="profit_expense_text_color">#FF5252</color>
+    <!-- End of Company Current Profit -->
+    <color name="colorOrange">#EF5350</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="loginEditBackgroundColor">#1D828EC5</color>
+    <color name="loginEditBackgroundFocusColor">#3DB7EE</color>
+    <color name="loginColorBackground">#3DB7EE</color>
+    <color name="forgotPressBackground">#6F3DB7EE</color>
+    <color name="forgotColor">#121A4B</color>
+    <color name="black">#000000</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="limegreen">#32CD32</color>
+
+    <color name="twilight_blue">#0a316d</color>
+    <color name="navy">#021430</color>
+    <color name="cool_grey">#9fa6b0</color>
+    <color name="duck_egg_blue">#d6f1f9</color>
+    <color name="sick_green">#acd433</color>
+    <color name="grapefruit">#ff6363</color>
+    <color name="black_63">#a1000000</color>
+    <color name="windows_blue">#3495af</color>
+    <color name="yellow">#E3BF0F</color>
+    <color name="green">#15C39A</color>
+
+    <!--ABA Collor theme-->
+    <color name="bg_grey">#E7EFF2</color>
+    <color name="input_color">#E3E3E3</color>
+    <color name="caption_color">#545454</color>
+    <color name="text_color">#727272</color>
+    <color name="hint_color">#9D9D9D</color>
+
+
+    <!--    KOI color-->
+
+    <!--    <color name="colorPrimary">#232322</color>-->
+    <!--    <color name="colorPrimaryDark">#232322</color>-->
+    <color name="colorPrimary">#1877F2</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent2">#b2b4b8</color>
+
+    <color name="colorSecondary">#cea746</color>
+
+    <color name="colorTopMenu">#ffffff</color>
+    <color name="colorTopMenuBlack">#000000</color>
+
+    <color name="colorButtonPrimary">#cea746</color>
+    <color name="colorButtonSecondary">#ffffff</color>
+
+    <color name="colorButtonTextPrimary">#000000</color>
+    <color name="colorButtonTextSecondary">#3C5A99</color>
+    <color name="colorButtonTextDark">#cea746</color>
+
+    <color name="colorInfo">#cea746</color>
+
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+
+    <color name="colorBalanceBg">#e6232322</color>
+
+    <color name="colorUnsetMembership">#64000000</color>
+    <color name="colorBlackMembership">#c8000000</color>
+    <color name="colorSiliverMembership">#ddd</color>
+    <color name="colorGoldMembership">#e1ce9e46</color>
+
+    <color name="dialogplus_black_overlay">#9F000000</color>
+</resources>

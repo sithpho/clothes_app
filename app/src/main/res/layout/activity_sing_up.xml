@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background"
+            android:orientation="vertical">
+            <!-- LOGO-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/logo" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="30dp"
+                    android:text="New Account"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+                <!--First Name-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20dp"
+                            android:text="First Name "/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <!--Last Name-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20dp"
+                            android:text="Last Name "/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <!-- email-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20dp"
+                            android:text="Email "/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <!--  Gender-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20dp"
+                            android:text="Gender"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <!--  PHONE-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:textSize="20dp"
+                            android:text="Phone "/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <!--  OFB-->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        style="@style/createEditTextGroupStyle"
+                        tools:ignore="RtlHardcoded">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="20sp"
+                            android:text="DOB "/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:background="#EFF0F1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        tools:ignore="RtlHardcoded">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            style="@style/createEditTextGroupStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#616161"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View style="@style/view_line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="match_parent"
+                        android:textColor="#ffffff"
+                        android:id="@+id/btn_create"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="90dp"
+                        android:layout_marginStart="90dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sing UP"
+                        android:background="@drawable/shap_signin_background"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
